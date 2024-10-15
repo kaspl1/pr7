@@ -8,7 +8,7 @@ def main():
             print(f"Двоичное представление: -{bin(abs(num))[2:]}")
             print(f"Восьмеричное представление: -{oct(abs(num))[2:]}")
 
-    except ValueError:
+    except Exception as e:
         print("Ошибка: ввод не верный.")
 
 

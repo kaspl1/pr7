@@ -11,7 +11,7 @@ def main():
         # Вывод результата
         print(f"Результат уравнения x = 7*b + 2*c - a: x = {x}")
 
-    except ValueError:
+    except Exception as e:
         print("Ошибка: введено не число. Пожалуйста, вводите только числа.")
 
 if __name__ == "__main__":

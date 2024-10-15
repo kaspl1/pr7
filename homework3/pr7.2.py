@@ -17,7 +17,7 @@ def main():
             # Для отрицательных чисел добавляем знак перед результатом
             print(f"Число в 13-й системе счисления: -{to_base13(abs(num))}")
 
-    except ValueError:
+    except Exception as e:
         print("Ошибка: ввод не верный.")
 
 if __name__ == "__main__":
